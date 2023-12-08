@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+  body{
+    background-image: url(wallpaper\ devops.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  p {
+    margin-right: 25%;
+  }
+
+  h1 {
+    color: rgb(253, 253, 253);
+    text-align: center;
+  }
+
+  h2{
+    color: rgb(255, 123, 0);
+  }
+  
+  nav{
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+  }
+  
+  nav a{
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  
+#cloud-img{
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+
+}
+
+  nav a:hover {
+  
+    background-color: #d6d6d6;
+    color: black;
+  }
+  @media screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+  } 
+}
