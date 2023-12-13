@@ -19,4 +19,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy to Surge
-        run: surge --project ./TestRep --domain https://ragged-orange.surge.sh
+        run: surge --project ./Desktop/TestRep --domain ragged-orange.surge.sh
